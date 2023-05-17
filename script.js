@@ -27,6 +27,16 @@ function handleNumberInput() {
 
 function displayNextEvenNumbers(number) {
   const nextEvenNumbers = [number + 2, number + 4, number + 6];
+  message.textContent = nextEvenNumbers.join(', ');
+}
+
+function displayNextOddNumbers(number) {
+  const nextOddNumbers = [number + 2, number + 4, number + 6];
+  message.textContent = nextOddNumbers.join(', ');
+}
+
+function displayNextEvenNumbers(number) {
+  const nextEvenNumbers = [number + 2, number + 4, number + 6];
   message.textContent = 'Next 3 even numbers: ' + nextEvenNumbers.join(', ');
 }
 
